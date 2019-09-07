@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'python --version'
                 sh 'echo $PATH'
+                sh 'echo "Hello from Docker Container"'
             }
         }
     }
